@@ -5,6 +5,13 @@ This program gets latest prices from Coinbase match websocket API and calculates
 This is the Python version of https://github.com/flaviostutz/coinbase-vwap
 Read its README in order to have more details.
 
+## Demo
+
+<img src="coinbase-vwap-kafka.gif"/>
+
+* The window on top is the program itself calculating the VWAP values and sending to Kafka
+* The two windows below are a streaming of some Kafka topics to the console
+
 ## Usage
 
 * Run the program without Kafka support

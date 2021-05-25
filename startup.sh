@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting coinbase-vwap..."
+echo "Starting coinbase-vwap-python..."
 
 /app/coinbase-vwap.py \
   --loglevel="$LOG_LEVEL" \

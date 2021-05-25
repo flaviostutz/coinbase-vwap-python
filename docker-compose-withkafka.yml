@@ -7,7 +7,7 @@ services:
     image: flaviostutz/coinbase-vwap-python
     restart: always
     environment:
-      - LOG_LEVEL=debug
+      - LOG_LEVEL=info
       - KAFKA_BROKERS=kafka1:9092
       # - COINBASE_WS_URL=
 

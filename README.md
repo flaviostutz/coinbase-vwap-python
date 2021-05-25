@@ -7,7 +7,7 @@ Read its README in order to have more details.
 
 ## Demo
 
-<img src="coinbase-vwap-kafka.gif"/>
+<img src="vwap-kafka.gif"/>
 
 * The window on top is the program itself calculating the VWAP values and sending to Kafka
 * The two windows below are a streaming of some Kafka topics to the console
